@@ -1,0 +1,119 @@
+
+@font-face{
+    font-family: 'Yekan';
+    src : url('fonts/Yekan.woff');
+}
+*{
+    font-family: 'Yekan';
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.img img{
+    opacity: 0.8;
+    width: 100%;
+    background-repeat: repeat-y;
+}
+h1{
+    position: relative;
+    bottom: 770px;
+    right: 600px;
+    font-size: 20px;
+    color: rgb(7, 61, 2);
+}
+.put{
+    position: relative;
+    bottom: 750px;
+    right: 580px;
+    display: flex;
+    font-size: 15px;
+    height: 100px;
+    width: 300px;
+    margin: 0;
+}
+#input{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.74);
+    border: none;
+    margin: 0;
+    padding-right: 10px;
+    font-size: 16px;
+}
+#input:focus{
+    border: none;
+    outline: none;
+
+}
+#btn{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    left: 35px; 
+}
+
+.tables{
+    position: relative;
+    right: 50px;
+    bottom: 800px;
+    text-align: center;
+    border-radius: 10px;
+    width: 20%;
+    height: 500px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.473);
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    padding: 0;
+    margin: 0;
+}
+.table{
+    display: flex;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+#head1{
+    position: relative;
+    width: 50%;
+    border-radius: 8px;
+}
+#head2{
+    position: relative;
+    width: 50%;
+    border-radius: 8px;
+}
+.results{
+    position: relative;
+    right: 600px;
+    bottom: 1300px;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    height: 500px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.288);
+    padding: 0;
+    margin: 0;
+}
+.resultP{
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+    font-size: 18px;
+}
+#names{
+    width: 50%;
+    height: 350px;
+    position: relative;
+    top: 10px;
+}
+#scores{
+    width: 50%;
+    height: 350px;
+    position: relative;
+    top: 10px;
+}
